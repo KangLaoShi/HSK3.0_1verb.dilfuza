@@ -102,54 +102,54 @@
             );
         };
 
-        // HSK 1 Verbs Data with Uzbek translations and Icon NAMES (String)
+        // HSK 1 Verbs Data with Uzbek, English, and Russian translations
         const verbsData = [
-          { char: '爱', pinyin: 'ài', uzbek: 'Sevmoq', icon: 'Heart', color: 'text-red-500' },
-          { char: '唱', pinyin: 'chàng', uzbek: 'Kuylamoq', icon: 'Music', color: 'text-purple-500' },
-          { char: '吃', pinyin: 'chī', uzbek: 'Yemoq', icon: 'Utensils', color: 'text-orange-500' },
-          { char: '穿', pinyin: 'chuān', uzbek: 'Kiyinmoq', icon: 'Shirt', color: 'text-blue-500' },
-          { char: '到', pinyin: 'dào', uzbek: 'Yetib kelmoq', icon: 'MapPin', color: 'text-green-600' },
-          { char: '读', pinyin: 'dú', uzbek: "O'qimoq", icon: 'BookOpen', color: 'text-indigo-600' },
-          { char: '给', pinyin: 'gěi', uzbek: 'Bermoq', icon: 'Gift', color: 'text-pink-500' },
-          { char: '喝', pinyin: 'hē', uzbek: 'Ichmoq', icon: 'Coffee', color: 'text-amber-700' },
-          { char: '回', pinyin: 'huí', uzbek: 'Qaytmoq', icon: 'RotateCcw', color: 'text-blue-400' },
-          { char: '会', pinyin: 'huì', uzbek: 'Qila olmoq / Uchratmoq', icon: 'Users', color: 'text-teal-600' },
-          { char: '见', pinyin: 'jiàn', uzbek: "Ko'rmoq / Uchrasmoq", icon: 'Eye', color: 'text-cyan-500' },
-          { char: '叫', pinyin: 'jiào', uzbek: 'Chaqirmoq / Nomlanmoq', icon: 'Volume2', color: 'text-yellow-600' },
-          { char: '开', pinyin: 'kāi', uzbek: 'Ochmoq / Haydamoq', icon: 'Key', color: 'text-yellow-500' },
-          { char: '看', pinyin: 'kàn', uzbek: "Ko'rmoq / Qaramoq", icon: 'Eye', color: 'text-indigo-500' },
-          { char: '来', pinyin: 'lái', uzbek: 'Kelmoq', icon: 'ArrowRight', color: 'text-green-500' },
-          { char: '买', pinyin: 'mǎi', uzbek: 'Sotib olmoq', icon: 'ShoppingCart', color: 'text-blue-600' },
-          { char: '卖', pinyin: 'mài', uzbek: 'Sotmoq', icon: 'Store', color: 'text-red-600' },
-          { char: '能', pinyin: 'néng', uzbek: 'Qila olmoq (imkon)', icon: 'Zap', color: 'text-yellow-400' },
-          { char: '起', pinyin: 'qǐ', uzbek: "Turmoq (o'rnidan)", icon: 'Sunrise', color: 'text-orange-400' },
-          { char: '请', pinyin: 'qǐng', uzbek: 'Iltimos qilmoq / Taklif qilmoq', icon: 'MessageCircle', color: 'text-pink-400' },
-          { char: '去', pinyin: 'qù', uzbek: 'Bormoq', icon: 'Navigation', color: 'text-blue-500' },
-          { char: '认识', pinyin: 'rènshi', uzbek: 'Tanishmoq / Bilmoq', icon: 'UserPlus', color: 'text-purple-600' },
-          { char: '上', pinyin: 'shàng', uzbek: 'Yuqoriga / Bormoq (darsga)', icon: 'ArrowUp', color: 'text-gray-600' },
-          { char: '下', pinyin: 'xià', uzbek: 'Pastga / Tugamoq (dars)', icon: 'ArrowDown', color: 'text-gray-600' },
-          { char: '睡', pinyin: 'shuì', uzbek: 'Uxlamoq', icon: 'Moon', color: 'text-indigo-800' },
-          { char: '说', pinyin: 'shuō', uzbek: 'Gapirmoq', icon: 'Mic', color: 'text-red-400' },
-          { char: '听', pinyin: 'tīng', uzbek: 'Tinglamoq', icon: 'Ear', color: 'text-yellow-600' },
-          { char: '玩', pinyin: 'wán', uzbek: "O'ynamoq", icon: 'Gamepad2', color: 'text-green-500' },
-          { char: '问', pinyin: 'wèn', uzbek: "So'ramoq", icon: 'HelpCircle', color: 'text-blue-400' },
-          { char: '喜欢', pinyin: 'xǐhuan', uzbek: 'Yoqtirmoq', icon: 'ThumbsUp', color: 'text-pink-500' },
-          { char: '想', pinyin: 'xiǎng', uzbek: "O'ylamoq / Xohlamoq", icon: 'Brain', color: 'text-purple-400' },
-          { char: '写', pinyin: 'xiě', uzbek: 'Yozmoq', icon: 'PenTool', color: 'text-gray-700' },
-          { char: '学', pinyin: 'xué', uzbek: "O'rganmoq", icon: 'GraduationCap', color: 'text-blue-800' },
-          { char: '要', pinyin: 'yào', uzbek: 'Kerak / Xohlamoq', icon: 'AlertCircle', color: 'text-red-500' },
-          { char: '有', pinyin: 'yǒu', uzbek: 'Bor bo’lmoq', icon: 'Briefcase', color: 'text-amber-600' },
-          { char: '找', pinyin: 'zhǎo', uzbek: 'Qidirmoq', icon: 'Search', color: 'text-teal-500' },
-          { char: '住', pinyin: 'zhù', uzbek: 'Yashamoq', icon: 'Home', color: 'text-green-700' },
-          { char: '做', pinyin: 'zuò', uzbek: 'Qilmoq / Bajarmoq', icon: 'Hammer', color: 'text-gray-500' },
-          { char: '坐', pinyin: 'zuò', uzbek: "O'tirmoq", icon: 'Armchair', color: 'text-indigo-500' },
+          { char: '爱', pinyin: 'ài', uzbek: 'Sevmoq', english: 'Love', russian: 'Любить', icon: 'Heart', color: 'text-red-500' },
+          { char: '唱', pinyin: 'chàng', uzbek: 'Kuylamoq', english: 'Sing', russian: 'Петь', icon: 'Music', color: 'text-purple-500' },
+          { char: '吃', pinyin: 'chī', uzbek: 'Yemoq', english: 'Eat', russian: 'Есть', icon: 'Utensils', color: 'text-orange-500' },
+          { char: '穿', pinyin: 'chuān', uzbek: 'Kiyinmoq', english: 'Wear', russian: 'Носить', icon: 'Shirt', color: 'text-blue-500' },
+          { char: '到', pinyin: 'dào', uzbek: 'Yetib kelmoq', english: 'Arrive', russian: 'Прибывать', icon: 'MapPin', color: 'text-green-600' },
+          { char: '读', pinyin: 'dú', uzbek: "O'qimoq", english: 'Read', russian: 'Читать', icon: 'BookOpen', color: 'text-indigo-600' },
+          { char: '给', pinyin: 'gěi', uzbek: 'Bermoq', english: 'Give', russian: 'Давать', icon: 'Gift', color: 'text-pink-500' },
+          { char: '喝', pinyin: 'hē', uzbek: 'Ichmoq', english: 'Drink', russian: 'Пить', icon: 'Coffee', color: 'text-amber-700' },
+          { char: '回', pinyin: 'huí', uzbek: 'Qaytmoq', english: 'Return', russian: 'Возвращаться', icon: 'RotateCcw', color: 'text-blue-400' },
+          { char: '会', pinyin: 'huì', uzbek: 'Qila olmoq', english: 'Can/Know how', russian: 'Уметь', icon: 'Users', color: 'text-teal-600' },
+          { char: '见', pinyin: 'jiàn', uzbek: "Ko'rmoq / Uchrasmoq", english: 'See/Meet', russian: 'Видеть/Встречаться', icon: 'Eye', color: 'text-cyan-500' },
+          { char: '叫', pinyin: 'jiào', uzbek: 'Chaqirmoq / Nomlanmoq', english: 'Call/Be called', russian: 'Звать/Называться', icon: 'Volume2', color: 'text-yellow-600' },
+          { char: '开', pinyin: 'kāi', uzbek: 'Ochmoq / Haydamoq', english: 'Open/Start', russian: 'Открывать', icon: 'Key', color: 'text-yellow-500' },
+          { char: '看', pinyin: 'kàn', uzbek: "Ko'rmoq / Qaramoq", english: 'Look/Watch', russian: 'Смотреть', icon: 'Eye', color: 'text-indigo-500' },
+          { char: '来', pinyin: 'lái', uzbek: 'Kelmoq', english: 'Come', russian: 'Приходить', icon: 'ArrowRight', color: 'text-green-500' },
+          { char: '买', pinyin: 'mǎi', uzbek: 'Sotib olmoq', english: 'Buy', russian: 'Покупать', icon: 'ShoppingCart', color: 'text-blue-600' },
+          { char: '卖', pinyin: 'mài', uzbek: 'Sotmoq', english: 'Sell', russian: 'Продавать', icon: 'Store', color: 'text-red-600' },
+          { char: '能', pinyin: 'néng', uzbek: 'Qila olmoq (imkon)', english: 'Can (ability)', russian: 'Мочь', icon: 'Zap', color: 'text-yellow-400' },
+          { char: '起', pinyin: 'qǐ', uzbek: "Turmoq", english: 'Rise', russian: 'Вставать', icon: 'Sunrise', color: 'text-orange-400' },
+          { char: '请', pinyin: 'qǐng', uzbek: 'Iltimos qilmoq', english: 'Please/Invite', russian: 'Просить', icon: 'MessageCircle', color: 'text-pink-400' },
+          { char: '去', pinyin: 'qù', uzbek: 'Bormoq', english: 'Go', russian: 'Идти', icon: 'Navigation', color: 'text-blue-500' },
+          { char: '认识', pinyin: 'rènshi', uzbek: 'Tanishmoq / Bilmoq', english: 'Know/Recognize', russian: 'Знать', icon: 'UserPlus', color: 'text-purple-600' },
+          { char: '上', pinyin: 'shàng', uzbek: 'Yuqoriga / Bormoq', english: 'Up/Go to', russian: 'Вверх', icon: 'ArrowUp', color: 'text-gray-600' },
+          { char: '下', pinyin: 'xià', uzbek: 'Pastga / Tugamoq', english: 'Down/Descend', russian: 'Вниз', icon: 'ArrowDown', color: 'text-gray-600' },
+          { char: '睡', pinyin: 'shuì', uzbek: 'Uxlamoq', english: 'Sleep', russian: 'Спать', icon: 'Moon', color: 'text-indigo-800' },
+          { char: '说', pinyin: 'shuō', uzbek: 'Gapirmoq', english: 'Speak', russian: 'Говорить', icon: 'Mic', color: 'text-red-400' },
+          { char: '听', pinyin: 'tīng', uzbek: 'Tinglamoq', english: 'Listen', russian: 'Слушать', icon: 'Ear', color: 'text-yellow-600' },
+          { char: '玩', pinyin: 'wán', uzbek: "O'ynamoq", english: 'Play', russian: 'Играть', icon: 'Gamepad2', color: 'text-green-500' },
+          { char: '问', pinyin: 'wèn', uzbek: "So'ramoq", english: 'Ask', russian: 'Спрашивать', icon: 'HelpCircle', color: 'text-blue-400' },
+          { char: '喜欢', pinyin: 'xǐhuan', uzbek: 'Yoqtirmoq', english: 'Like', russian: 'Нравиться', icon: 'ThumbsUp', color: 'text-pink-500' },
+          { char: '想', pinyin: 'xiǎng', uzbek: "O'ylamoq / Xohlamoq", english: 'Think/Want', russian: 'Думать', icon: 'Brain', color: 'text-purple-400' },
+          { char: '写', pinyin: 'xiě', uzbek: 'Yozmoq', english: 'Write', russian: 'Писать', icon: 'PenTool', color: 'text-gray-700' },
+          { char: '学', pinyin: 'xué', uzbek: "O'rganmoq", english: 'Learn', russian: 'Учиться', icon: 'GraduationCap', color: 'text-blue-800' },
+          { char: '要', pinyin: 'yào', uzbek: 'Kerak / Xohlamoq', english: 'Want/Need', russian: 'Хотеть', icon: 'AlertCircle', color: 'text-red-500' },
+          { char: '有', pinyin: 'yǒu', uzbek: 'Bor bo’lmoq', english: 'Have', russian: 'Иметь', icon: 'Briefcase', color: 'text-amber-600' },
+          { char: '找', pinyin: 'zhǎo', uzbek: 'Qidirmoq', english: 'Look for', russian: 'Искать', icon: 'Search', color: 'text-teal-500' },
+          { char: '住', pinyin: 'zhù', uzbek: 'Yashamoq', english: 'Live', russian: 'Жить', icon: 'Home', color: 'text-green-700' },
+          { char: '做', pinyin: 'zuò', uzbek: 'Qilmoq / Bajarmoq', english: 'Do/Make', russian: 'Делать', icon: 'Hammer', color: 'text-gray-500' },
+          { char: '坐', pinyin: 'zuò', uzbek: "O'tirmoq", english: 'Sit', russian: 'Сидеть', icon: 'Armchair', color: 'text-indigo-500' },
           // New Verbs
-          { char: '在', pinyin: 'zài', uzbek: "Mavjud bo'lmoq / -da (joy)", icon: 'MapPin', color: 'text-emerald-500' },
-          { char: '知道', pinyin: 'zhīdào', uzbek: 'Bilmoq', icon: 'Lightbulb', color: 'text-yellow-500' },
-          { char: '休息', pinyin: 'xiūxi', uzbek: 'Dam olmoq', icon: 'PauseCircle', color: 'text-orange-400' },
-          { char: '起床', pinyin: 'qǐchuáng', uzbek: 'Uyqudan turmoq', icon: 'Sun', color: 'text-amber-500' },
-          { char: '看见', pinyin: 'kànjiàn', uzbek: "Ko'rib qolmoq", icon: 'Glasses', color: 'text-indigo-400' },
-          { char: '开车', pinyin: 'kāichē', uzbek: 'Mashina haydamoq', icon: 'Car', color: 'text-blue-600' },
+          { char: '在', pinyin: 'zài', uzbek: "Mavjud bo'lmoq / -da", english: 'At/In', russian: 'Быть в', icon: 'MapPin', color: 'text-emerald-500' },
+          { char: '知道', pinyin: 'zhīdào', uzbek: 'Bilmoq', english: 'Know', russian: 'Знать', icon: 'Lightbulb', color: 'text-yellow-500' },
+          { char: '休息', pinyin: 'xiūxi', uzbek: 'Dam olmoq', english: 'Rest', russian: 'Отдыхать', icon: 'PauseCircle', color: 'text-orange-400' },
+          { char: '起床', pinyin: 'qǐchuáng', uzbek: 'Uyqudan turmoq', english: 'Get up', russian: 'Вставать', icon: 'Sun', color: 'text-amber-500' },
+          { char: '看见', pinyin: 'kànjiàn', uzbek: "Ko'rib qolmoq", english: 'See', russian: 'Увидеть', icon: 'Glasses', color: 'text-indigo-400' },
+          { char: '开车', pinyin: 'kāichē', uzbek: 'Mashina haydamoq', english: 'Drive car', russian: 'Водить', icon: 'Car', color: 'text-blue-600' },
         ];
 
         const speak = (text) => {
@@ -230,7 +230,7 @@
               setFeedback('correct');
               setQuizScore(prev => prev + 1);
               speak('对'); // Correct feedback
-              setTimeout(() => generateQuiz(), 2000); // Slower transition in listen mode to see the character
+              setTimeout(() => generateQuiz(), 2000); 
             } else {
               setFeedback('wrong');
               speak('不对'); 
@@ -335,9 +335,13 @@
                           
                           <div className="w-full h-px bg-slate-700 mb-3 md:mb-6"></div>
                           
-                          <div className="text-center">
-                            <p className="text-slate-400 text-[10px] md:text-sm uppercase tracking-widest mb-1">O'zbekcha</p>
+                          <div className="text-center w-full">
+                            <p className="text-slate-400 text-[10px] md:text-sm uppercase tracking-widest mb-1">O'zbekcha / English / Русский</p>
                             <p className="text-lg md:text-2xl font-bold text-yellow-400 leading-tight px-2">{verbsData[currentIndex].uzbek}</p>
+                            <div className="mt-2 flex flex-col gap-1">
+                                <p className="text-xs md:text-sm text-gray-300">{verbsData[currentIndex].english}</p>
+                                <p className="text-xs md:text-sm text-gray-400">{verbsData[currentIndex].russian}</p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -402,7 +406,7 @@
 
                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 w-full">
                         {quizOptions.map((option, idx) => {
-                          let btnClass = "p-4 md:p-6 rounded-xl text-sm md:text-lg font-bold shadow-sm border-2 border-transparent transition-all duration-200 flex items-center justify-between group touch-manipulation";
+                          let btnClass = "p-3 md:p-6 rounded-xl text-sm md:text-lg font-bold shadow-sm border-2 border-transparent transition-all duration-200 flex items-center justify-between group touch-manipulation";
                           
                           if (feedback) {
                             if (option.char === quizQuestion.char) {
@@ -423,11 +427,14 @@
                               disabled={feedback !== null}
                               className={btnClass}
                             >
-                              <span className="flex items-center gap-2 md:gap-3 text-left">
-                                <LucideIcon name={option.icon} size={18} className={`min-w-[18px] md:min-w-[20px] ${feedback && option.char === quizQuestion.char ? "text-green-600" : "text-gray-400 group-hover:text-red-500"}`} />
-                                <span className="line-clamp-1">{option.uzbek}</span>
+                              <span className="flex items-center gap-2 md:gap-3 text-left w-full overflow-hidden">
+                                <LucideIcon name={option.icon} size={18} className={`flex-shrink-0 min-w-[18px] md:min-w-[20px] ${feedback && option.char === quizQuestion.char ? "text-green-600" : "text-gray-400 group-hover:text-red-500"}`} />
+                                <span className="flex flex-col items-start min-w-0 flex-1">
+                                    <span className="line-clamp-1 break-all text-sm md:text-base">{option.uzbek}</span>
+                                    <span className="text-[10px] text-gray-400 font-normal line-clamp-1">{option.english} / {option.russian}</span>
+                                </span>
                               </span>
-                              {feedback && option.char === quizQuestion.char && <LucideIcon name="Check" className="text-green-600 flex-shrink-0" size={18} />}
+                              {feedback && option.char === quizQuestion.char && <LucideIcon name="Check" className="text-green-600 flex-shrink-0 ml-1" size={18} />}
                             </button>
                           );
                         })}
@@ -484,7 +491,7 @@
 
                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 w-full">
                         {quizOptions.map((option, idx) => {
-                          let btnClass = "p-4 md:p-6 rounded-xl text-sm md:text-lg font-bold shadow-sm border-2 border-transparent transition-all duration-200 flex items-center justify-between group touch-manipulation";
+                          let btnClass = "p-3 md:p-6 rounded-xl text-sm md:text-lg font-bold shadow-sm border-2 border-transparent transition-all duration-200 flex items-center justify-between group touch-manipulation";
                           
                           if (feedback) {
                             if (option.char === quizQuestion.char) {
@@ -505,10 +512,13 @@
                               disabled={feedback !== null}
                               className={btnClass}
                             >
-                              <span className="flex items-center gap-2 md:gap-3 text-left">
-                                <span className="line-clamp-1">{option.uzbek}</span>
+                              <span className="flex items-center gap-2 md:gap-3 text-left w-full overflow-hidden">
+                                <span className="flex flex-col items-start min-w-0 flex-1">
+                                    <span className="line-clamp-1 text-sm md:text-base">{option.uzbek}</span>
+                                    <span className="text-[10px] text-gray-400 font-normal line-clamp-1">{option.english} / {option.russian}</span>
+                                </span>
                               </span>
-                              {feedback && option.char === quizQuestion.char && <LucideIcon name="Check" className="text-green-600 flex-shrink-0" size={18} />}
+                              {feedback && option.char === quizQuestion.char && <LucideIcon name="Check" className="text-green-600 flex-shrink-0 ml-1" size={18} />}
                             </button>
                           );
                         })}
@@ -542,7 +552,10 @@
                              <div className="hidden md:block">
                                 <LucideIcon name={item.icon} size={20} className={item.color} />
                              </div>
-                             <span className="line-clamp-2 leading-tight">{item.uzbek}</span>
+                             <div className="flex flex-col min-w-0">
+                                <span className="line-clamp-1 leading-tight font-medium">{item.uzbek}</span>
+                                <span className="text-[10px] text-gray-500 line-clamp-1">{item.english} / {item.russian}</span>
+                             </div>
                           </div>
                           <div className="col-span-2 flex justify-center">
                             <button 
